@@ -5,7 +5,7 @@
 #dogs.db: Contains data pertaining to famous fictional dog characters
 #babe_ruth.db: Contains data pertaining to Babe Ruth's baseball career statistics
 
-#SQL (Structured Query Language) provides powerful tools for manipulating and analyzing data in relational databases. Four key operations for working with data are filtering, ordering, limiting, and grouping. These operations can be combined in a single query to perform complex data analysis and extraction tasks, allowing for powerful and flexible data manipulation.
+#SQL (Structured Query Language) provides powerful tols for manipulating and analyzing data in relational databases. Four key operations for working with data are filtering, ordering, limiting, and grouping. These operations can be combined in a single query to perform complex data analysis and extraction tasks, allowing for powerful and flexible data manipulation.
 # Learning Objectives
 
 #Retrieve a subset of records from a table using a WHERE clause
