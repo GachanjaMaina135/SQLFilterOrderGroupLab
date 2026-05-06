@@ -112,6 +112,7 @@ df_hungry = pd.read_sql("""
     ORDER BY age ASC
 """, conn2)
 df_hungry
+
 ### Step 7
 ## Return the name, age, and hungry columns for hungry dogs between the ages of two and seven. This query should also sort these dogs in alphabetical order.
 # CodeGrade step7
@@ -124,7 +125,6 @@ df_hungry_ages = pd.read_sql("""
     ORDER BY name ASC
 """, conn2)
 df_hungry_ages
-###
 ### Step 8
 
 ## Return the name, age, and breed for the 4 oldest dogs. Sort the result alphabetically based on the breed.
@@ -133,11 +133,11 @@ df_hungry_ages
 df_4_oldest = pd.read_sql("""
     SELECT name, age, breed
     FROM dogs
-    ORDER BY age DESC
-    LIMIT 4
+    ORDER BY age DESC, breed DESC
+    LIMIT 4;
 """, conn2)
-df_4_oldest = df_4_oldest.sort_values('breed').reset_index(drop=True)
 df_4_oldest
+
 ## Part 4: Aggregation
 ##In the next few parts, you'll query data from a table populated with Babe Ruth's career hitting statistics. You'll use aggregate functions to pull interesting information from the table that basic queries cannot track.
 
